@@ -25,7 +25,6 @@ You can use an initializer for example if you're on Rails.
 ```rb
 # initializers/meaning_cloud.rb
 MeaningCloud.configure do |config|
-  # Will only show public domain icons when running in dev/test envs
   config.key = ENV['MEANING_CLOUD_KEY']
 end
 ```
