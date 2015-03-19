@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-$LOAD_PATH.push File.expand_path('../lib', __FILE__)
+$:.push File.expand_path('../lib', __FILE__)
 
 require 'semver'
 
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.files        = Dir[
-    'README.rdoc', 'VERSION', 'MIT-LICENSE', 'Rakefile', 'lib/**/*'
+    'README.md', 'LICENSE', 'Rakefile', 'lib/**/*'
   ]
   s.test_files   = Dir['spec/**/*']
 

@@ -2,7 +2,7 @@ require 'codeclimate-test-reporter'
 CodeClimate::TestReporter.start
 
 require 'bundler/setup'
-require 'meaning_cloud'
+require 'meaning-cloud'
 require 'pry'
 require 'faker'
 require 'json'
