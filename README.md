@@ -7,7 +7,7 @@ A Ruby API wrapper for [Meaning Cloud](https://www.meaningcloud.com/) [API's](ht
 [![Circle CI](https://circleci.com/gh/TailorBrands/meaning-cloud/tree/master.svg?style=svg)](https://circleci.com/gh/TailorBrands/meaning-cloud/tree/master)  [![Code Climate](https://codeclimate.com/github/TailorBrands/meaning-cloud/badges/gpa.svg)](https://codeclimate.com/github/TailorBrands/meaning-cloud)  [![Test Coverage](https://codeclimate.com/github/TailorBrands/meaning-cloud/badges/coverage.svg)](https://codeclimate.com/github/TailorBrands/meaning-cloud)
 
 ```rb
-gem "meaning-cloud", "~> 0.1.2"
+gem "meaning-cloud", "~> 0.1.3"
 ```
 
 ## Missing
