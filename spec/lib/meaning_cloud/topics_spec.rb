@@ -20,7 +20,7 @@ RSpec.describe MeaningCloud::Topics do
     expect(RestClient).to receive(
       :post
     ).with(
-      "https://api.meaningcloud.com/topics-1.2.php?of=json&key=#{key}&lang=en&tt=ec&uw=y&txt=#{txt.gsub(' ', '+')}", {}
+      "https://api.meaningcloud.com/topics-2.0?of=json&key=#{key}&lang=en&tt=ec&uw=y&txt=#{txt.gsub(' ', '+')}", {}
     ).and_return(
       result
     )
