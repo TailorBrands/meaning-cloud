@@ -1,4 +1,6 @@
 language: ruby
+jdk:
+  - oraclejdk8
 rvm:
   - "1.9.3"
   - "2.2.3"
