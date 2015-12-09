@@ -26,6 +26,9 @@ You can use an initializer for example if you're on Rails.
 # initializers/meaning_cloud.rb
 MeaningCloud.configure do |config|
   config.key = ENV['MEANING_CLOUD_KEY']
+  # optional - these are the defaults
+  config.language = :en
+  config.topic_types = 'ec'
 end
 ```
 
