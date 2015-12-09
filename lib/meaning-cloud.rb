@@ -18,8 +18,8 @@ module MeaningCloud
   # Main configuration class.
   class Configuration
     attr_accessor :key,
-		  :language,
-		  :topic_types
+      :language,
+      :topic_types
 
     def initialize
       @key = nil
