@@ -4,10 +4,10 @@ The Meaning Cloud Ruby API Wrapper
 A Ruby API wrapper for [Meaning Cloud](https://www.meaningcloud.com/) [API's](https://www.meaningcloud.com/developer/getting-started)
 
 [![Gem Version](https://badge.fury.io/rb/meaning-cloud.svg)](http://badge.fury.io/rb/meaning-cloud)[![Dependency Status](https://gemnasium.com/TailorBrands/meaning-cloud.svg)](https://gemnasium.com/TailorBrands/meaning-cloud)
-[![Circle CI](https://circleci.com/gh/TailorBrands/meaning-cloud/tree/master.svg?style=svg)](https://circleci.com/gh/TailorBrands/meaning-cloud/tree/master)  [![Code Climate](https://codeclimate.com/github/TailorBrands/meaning-cloud/badges/gpa.svg)](https://codeclimate.com/github/TailorBrands/meaning-cloud)  [![Test Coverage](https://codeclimate.com/github/TailorBrands/meaning-cloud/badges/coverage.svg)](https://codeclimate.com/github/TailorBrands/meaning-cloud)
+[![Build Status](https://travis-ci.org/TailorBrands/meaning-cloud.svg)](https://travis-ci.org/TailorBrands/meaning-cloud)  [![Code Climate](https://codeclimate.com/github/TailorBrands/meaning-cloud/badges/gpa.svg)](https://codeclimate.com/github/TailorBrands/meaning-cloud)  [![Test Coverage](https://codeclimate.com/github/TailorBrands/meaning-cloud/badges/coverage.svg)](https://codeclimate.com/github/TailorBrands/meaning-cloud)
 
 ```rb
-gem "meaning-cloud", "~> 0.1.4"
+gem "meaning-cloud", "~> 1.0.0"
 ```
 
 ## Missing
@@ -34,7 +34,7 @@ end
 ```rb
 result = MeaningCloud::Topics.extract_topics(txt: 'The most amazing text in the world') # Returns a hash of the parsed JSON result.
 ```
-Source [source](https://www.meaningcloud.com/developer/topics-extraction/doc/1.2/examples)
+Source [source](https://www.meaningcloud.com/developer/topics-extraction/doc/2.0/examples)
 
 ## Disclaimer
 
