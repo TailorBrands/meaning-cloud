@@ -9,8 +9,8 @@ module MeaningCloud
       options = {
         of: :json,
         key: MeaningCloud.configuration.key,
-        lang: :en,
-        tt: 'ec',
+        lang: MeaningCloud.configuration.language,
+        tt: MeaningCloud.configuration.topic_types,
         uw: 'y'
       }.merge(options)
 
