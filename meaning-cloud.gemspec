@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'rest-client', '~> 1'
 
-  s.add_development_dependency 'rake', '~> 0'
+  s.add_development_dependency 'rake', '~> 12'
   s.add_development_dependency 'rspec', '~> 3.1', '>= 3.1.0'
   s.add_development_dependency 'faker', '~> 0'
   s.add_development_dependency 'semver', '~> 0'
